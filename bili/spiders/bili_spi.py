@@ -4,7 +4,6 @@ import time
 import scrapy
 import re
 import json
-import requests
 from ..items import BiliItem
 
 class BiliSpiSpider(scrapy.Spider):
